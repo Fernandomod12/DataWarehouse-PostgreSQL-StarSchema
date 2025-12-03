@@ -26,7 +26,7 @@ El modelo sigue una estructura de **Esquema en Estrella**, con una tabla central
 ### Diagrama Entidad-Relación (ERD)
 Así es como se relacionan las tablas en el almacén de datos:
 
-![Diagrama del Esquema en Estrella](img/Diagrama_Entidad_Relacion.png)
+![Diagrama del Esquema en Estrella](Diagrama_Entidad_Relacion.png)
 
 
 ## Análisis y Consultas (Business Intelligence)
