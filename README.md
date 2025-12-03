@@ -15,9 +15,9 @@ El objetivo principal fue modelar una base de datos analítica bajo la arquitect
 El modelo sigue una estructura de **Esquema en Estrella**, con una tabla central de hechos conectada a varias dimensiones descriptivas:
 
 ### Estructura de Tablas
-* **⭐ Tabla de Hechos (Fact Table):**
+* **Tabla de Hechos (Fact Table):**
     * `fato_neo`: Contiene las métricas clave (diámetro, distancia MOID, sigma) y las claves foráneas.
-* **📦 Dimensiones:**
+* **Dimensiones:**
     * `dim_neo`: Datos descriptivos del asteroide (Nombre, ID original, Clasificación PHA).
     * `dim_orbita`: Parámetros orbitales (Clase, excentricidad, semi-eje mayor).
     * `dim_risco`: Datos relacionados con la peligrosidad e intersección de órbita.
